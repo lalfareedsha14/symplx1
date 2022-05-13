@@ -84,11 +84,13 @@
                 <li class="modulescolor"><a href="#" onclick="getActivePage('symplxdiv2')">Supply Chain Management
                     (SCM)</a></li>
                 <hr class="underline">
-                <li class="modulescolor"><a href="#!">Human Capital Management (HCM)</a></li>
+                <li class="modulescolor"><a href="#" onclick="getActivePage('symplxdiv3')">Human Capital Management
+                    (HCM)</a></li>
                 <hr class="underline">
-                <li class="modulescolor"><a href="#!">Project and Contract Management</a></li>
+                <li class="modulescolor"><a href="#" onclick="getActivePage('symplxdiv4')">Project and Contract
+                    Management</a></li>
                 <hr class="underline">
-                <li class="modulescolor"><a href="#!">Customer Relation Management (CRM)</a></li>
+                <li class="modulescolor"><a href="#" onclick="getActivePage('symplxdiv5')">Customer Relation Management (CRM)</a></li>
                 <hr class="underline">
                 <li class="modulescolor"><a href="#!">Health Inormation System (HIS)</a></li>
                 <hr class="underline">
@@ -112,7 +114,7 @@
           Given the importance of maintaining and perfecting customer relationships, one might assume that these tools
           have been a mainstay of business for as long as the concept has existed, but the reality is that CRM is a
           relatively new development.</p>
-          <img src="./images/download.jpg" alt="business" width="286px" height="176px" style="margin-left:358px">
+        <img src="./images/download.jpg" alt="business" width="286px" height="176px" style="margin-left:358px">
       </div>
       <div id="symplxdiv2" class="content" style="display:none">
         <h1>SYMPLX SUPPLY CHAIN MANAGEMENT</h1>
@@ -120,6 +122,44 @@
           optimize the procurement, receipt, warehousing, and shipping of your products. Advanced features include
           electronic purchase requisition to PO conversion, including signature loop, unlimited stockrooms and
           locations, flexible shipping options, integration with Microsoft Office and Outlook.</p>
+      </div>
+      <div id="symplxdiv3" class="content" style="display:none">
+        <h1>SYMPLX HUMAN CAPITAL MANAGEMENT</h1>
+        <p>Complete time and attendance systems designed for small- to mid-sized businesses. Productivity gains of an
+          automated time and attendance solution without the cost or complexity of a big system. The Time Attendance
+          tracks employees' time and provides a daily reconciliation of time records as reports or for further
+          processing by payroll.<br><br>
+
+          As a result, the software cuts down on administrative time, safeguards from error, and save a substantial
+          amount of money that could have been lost due to mishandled time cards and employees punching in for each
+          other. It is a complete and a cost effective solution for time and attendance with security.<br><br>
+
+          HRMS payroll is configured to meet the Saudi Labor standards and other company requirements such as GOSI,
+          Basic Salary, Medical, Housing, Overtime, Absence, Annual Leave, Sick Leave, Loans, Time card, End of Service
+          calculation, Transportation and other Allowances. HRMS caters for mid to large sized firms with complex
+          payroll requirements who need a system that is easily configurable.</p>
+        <h1>Selecting Business Navigator ERP Solution</h1>
+        <img src="./images/HCM.png" alt="hcm" width="50%">
+      </div>
+      <div id="symplxdiv4" class="content" style="display:none">
+        <h1>SYMPLX PROJECT & CONTRACT MANAGEMENT</h1>
+        <p>Ideal for creating bids and proposals not only for the construction industry but in general to all
+          organizations who are responding to tenders or bidding for a project. In addition to performing analysis on
+          submittals, companies can follow through on wining bids to the execution stages via the project management
+          approach and the integration to Finance & Distribution to fully manage the implementation to closure.</p>
+        <img src="./images/contract-management-services.png" alt="cms" width="60%" height="100%">
+      </div>
+      <div id="symplxdiv5" class="content" style="display:none">
+        <h1>SYMPLX CUSTOMER RELATIONSHIP MANAGEMENT</h1>
+        <p>In today’s marketplace, CRM most often refers to the specific tools, usually a web application or software,
+          that allow organizations to focus their attention on individual customers and associates—be they buyers,
+          suppliers, service users, or anyone else the organization does business with.<br><br>
+
+          Given the importance of maintaining and perfecting customer relationships, one might assume that these tools
+          have been a mainstay of business for as long as the concept has existed, but the reality is that CRM is a
+          relatively new development.</p><br><br>
+          <h1>Selecting Business Navigator CRM Solution</h1>
+          <img src="./images/CRM.png" alt="crm"    style=" width: 671px ; height: 552px">
       </div>
     </div>
 
@@ -166,7 +206,7 @@
     function getActivePage(id) {
       //write a loop and identify the current id  and hide the remianing divs
       //assuming div id will simplxdiv1 ,simplxdiv2 ......
-      for (let i = 1; i < 3; i++) {
+      for (let i = 1; i < 9; i++) {
         if ('symplxdiv' + i === id) {
           var element = document.getElementById(id);
           element.style.display = "block";

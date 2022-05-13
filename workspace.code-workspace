@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\startbootstrap-simple-sidebar-gh-pages"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "startbootstrap-simple-sidebar-gh-pages"
+	}
+}
