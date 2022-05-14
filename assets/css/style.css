@@ -500,7 +500,7 @@ ul,li{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
     #modules {
-      width: 80%;
+      width: 99%;
       height: 204vh;
       margin-top: -367px;
     }
